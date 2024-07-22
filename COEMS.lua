@@ -1,5 +1,7 @@
 -- Putting together everything we've learned, we will now create a basic hub using all previous code snippets.
 
+local Progress = getfenv().Progress
+
 Progress.Window:SetSubtitle("BETA TEST | Early Access")
 
 local pages = {
